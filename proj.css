@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    font-size: 1.3rem;
+    padding-top: 20px;
+}
+h1{
+    color: blue;
+    text-align: center;
+    ;
+}
+
+ul { 
+ /* padding-left: 15px; */
+  background-color:black;
+  text-align: end;
+  color: aliceblue;
+  font-size: 1rem;
+  margin: 0;
+ 
+  padding-top: 15px;
+  /* position: fixed; */
+  right: 0;
+
+  
+ 
+    
+}
+
+li {
+    display: inline;
+    text-align: end;
+    padding-left: 15px;
+    color: white;
+  
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+img {
+   height: 350px; 
+   width: 350px;
+padding-left: 800px;
+   position: absolute;
+   margin-top: 150px;
+   /* display:none;  */
+}
+
+.intro{
+    height: 15rem;
+    width: 30rem;
+font-size: 1.1rem;
+    color: rgb(245, 222, 179);
+    border: 5px solid ;
+    letter-spacing: 2px;;
+    text-align: center;
+    background-color:brown;
+    position: absolute;
+    box-sizing: border-box;
+    border-top: 350px;
+     margin-left: 25px;
+    margin-top: 150px; 
+    
+    
+    
+  }
+
+  .container {
+width: 300px;
+height: 300px;
+background-color: white;
+margin: 560px;
+position: relative;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+
+  }
+  .blue{
+
+    background-color: blue;
+    position: relative;
+   left: 100px ;
+   top: 100px;
+    }
+    .green{
+     
+        background-color: green;
+
+    }
+    .red{
+        background-color: red;
+    }
+
+.continer{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    position: relative;
+    bottom: 500px;
+    /* overflow: visible ;
+    overflow:hidden; */
+  overflow:scroll ; 
+     /*overflow: ; */
+} 
+.sqare{
+    /* width: 150px;
+    height: 150px;  */
+    background-color: antiquewhite;
+    border: 2px solid green;
+   
+}
+ .imig{
+    float: left;
+
+}
+.flot{
+
+} 
